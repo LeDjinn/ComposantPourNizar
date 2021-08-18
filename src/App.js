@@ -7,7 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Le template de l'entreprise qui va digitaliser ta vie
+          Le template de l'entreprise qui va digitaliser ta vie! 
+        </p>
+        <p>
+          Dit par le grand penseur des temps modernes Niar 
         </p>
        
       </header>
