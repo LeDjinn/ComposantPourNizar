@@ -1,19 +1,29 @@
 import logo from './base_textlogo_transparent_background.png';
-import './App.css';
+import BigCard from './components/BigCard';
+import FunctionalBigCard from './components/FunctionalBigCard';
+import HeroFancy from './components/HeroFancy';
+import HeroFunctional from './components/HeroFunctional';
+import MinimalistCard from './components/MinimalistCard';
+import ProductCard from './components/ProductCard';
+import ProductCardFancy from './components/ProductCardFancy';
+import ProductCardMinimalist from './components/ProductCardMinimalist';
+import SliderDiv from './components/SliderDiv';
+import TestimonialsFancy from './components/TestimonialsFancy';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Le template de l'entreprise qui va digitaliser ta vie! 
-        </p>
-        <p>
-          Dit par le grand penseur des temps modernes Niar 
-        </p>
-       
-      </header>
+     <FunctionalBigCard/>
+     <MinimalistCard/>
+     <BigCard/>
+     <ProductCard/>
+     <ProductCardMinimalist/>
+     <ProductCardFancy/>
+     <HeroFancy/>
+     <HeroFunctional/>
+     <SliderDiv />
+     <TestimonialsFancy/>
     </div>
   );
 }
