@@ -1,4 +1,5 @@
 import logo from './base_textlogo_transparent_background.png';
+import AdnFuncy from './components/AdnFuncy';
 import BigCard from './components/BigCard';
 import FunctionalBigCard from './components/FunctionalBigCard';
 import HeroFancy from './components/HeroFancy';
@@ -9,6 +10,10 @@ import ProductCardFancy from './components/ProductCardFancy';
 import ProductCardMinimalist from './components/ProductCardMinimalist';
 import SliderDiv from './components/SliderDiv';
 import TestimonialsFancy from './components/TestimonialsFancy';
+import AdnMinimal from './components/AdnMinimal'
+import Articles from './pages/Articles'
+import ServicesHero from './components/ServicesHero';
+
 
 
 function App() {
@@ -24,6 +29,10 @@ function App() {
      <HeroFunctional/>
      <SliderDiv />
      <TestimonialsFancy/>
+     <AdnFuncy/>
+     <AdnMinimal/>
+     <Articles/>
+     <ServicesHero/>
     </div>
   );
 }
